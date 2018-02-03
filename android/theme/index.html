@@ -1,0 +1,114 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+	<title>WTN: OPCS</title>
+
+	<link rel="stylesheet" href="themes/cabral.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="magnific-popup/css/magnific-popup.css" />
+	<link rel="stylesheet" href="fonts.css" />
+	<link rel="stylesheet" href="fonts.css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="jquery.mobile.datepicker.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.5.min.css" />
+	<link rel="stylesheet" href="themes/font-awesome/css/font-awesome.css" />
+	<link rel="stylesheet" href="themes/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="sweetalert/sweet-alert.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="themes/jquery-1.11.1.min.js"></script>
+<script src="themes/jquery.mobile-1.4.5.min.js"></script>
+	<script src="jquery.mobile.datepicker.js"></script>
+	<script src="jquery.ui.datepicker.js"></script>
+	<script>
+	$(window).load(function(){
+$('#loader').fadeOut();
+ });
+	</script>
+</head>
+<div id="loader"></div>
+<body>
+	<!-- home page -->
+	<div data-role="page" id="home">
+		<header data-role="header" data-theme="a" data-position="fixed">
+			<h1 id="photos-container"><i class="fa fa-cutlery"></i> WTN<br> Online caterers</h1>
+		</header>
+		<div data-role="content">
+			<center><h3>Welcome to WTN online caterers</h3></center>
+			<ul id="locationlist" data-role="listview" data-filter="true" data-filter-placeholder="Find your location" data-inset="true"></ul><br>
+
+		</div>
+
+		<footer data-role="footer" data-theme="a" data-position="fixed">
+			<h1 id="photos-container"> WTN &copy; 2017</h1>
+		</footer>
+	</div>
+	<!-- search result -->
+	<div data-role="page" id="searchresult">
+		<header data-role="header" data-theme="a" data-position="fixed">
+			<h1 id="photos-container"><i class="fa fa-cutlery"></i> WTN<br> Online caterers</h1>
+		</header>
+		<div data-role="content">
+			<center><h3>Welcome to WTN online caterers</h3></center>
+			<ul id="stats" data-role="listview" data-filter="true" data-filter-placeholder="Search caterers" data-inset="true"></ul><br>
+
+		</div>
+
+        
+
+		<footer data-role="footer" data-theme="a" data-position="fixed">
+			
+			<h1 id="photos-container">WTN &copy; 2017</h1>
+		</footer>
+	</div>
+	<!--- view services -->
+	<div data-role="page" id="viewservices">
+		<header data-role="header" data-theme="a" data-position="fixed">
+			<h1 id="photos-container"><i class="fa fa-cutlery"></i> WTN<br> Online caterers</h1>
+		</header>
+		<div data-role="content">
+			<a id="imgpopup"class="image-popup">
+			<img width="100%;" style="height:100px;" id="imgbanner">
+			</a>
+			<div id="cname"></div>
+			
+			
+		</div>
+
+        
+
+		<footer data-role="footer" data-theme="a" data-position="fixed">
+			
+			<h1 id="photos-container">WTN &copy; 2017</h1>
+		</footer>
+	</div>
+	 <div data-role="page" id="rpp">
+		<header data-role="header" data-theme="a" data-position="fixed">
+			<h1 id="photos-container"><i class="fa fa-cutlery"></i> WTN<br> Online caterers</h1>
+		</header>
+		<div data-role="content">
+			<ul id="list" data-role="listview" data-inset="true"></ul><br>
+		</div>
+		<footer data-role="footer" data-theme="a" data-position="fixed">
+			
+			<h1 id="photos-container">WTN &copy; 2017</h1>
+		</footer>
+	</div>
+	 <div data-role="page" page-dialog="true" id="rppservices">
+		<header data-role="header" data-theme="a" data-position="fixed">
+			<h1 id="photos-container"><i class="fa fa-cutlery"></i> WTN<br> Online caterers</h1>
+		</header>
+		<div data-role="content">
+			<div id="serviceslist"></div>
+		</div>
+		<footer data-role="footer" data-theme="a" data-position="fixed">
+			
+			<h1 id="photos-container">WTN &copy; 2017</h1>
+		</footer>
+	</div>
+
+</body>
+<script src="magnific-popup/js/jquery.magnific-popup.min.js"></script>
+<script src="sweetalert/sweetalert.js"></script>
+<script src="sweetalert/sweet-alert.min.js"></script>
+<script src="themes/script.js"></script>
+</html>
